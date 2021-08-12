@@ -8,7 +8,7 @@ const Homepage = ({text}) => {
    
     return(
         <div>
-            <Header className='header_ed'text="Employee Directory"/>
+            <Header text="Employee Directory"/>
             {text}
             <div>
                 <SearchBar/>

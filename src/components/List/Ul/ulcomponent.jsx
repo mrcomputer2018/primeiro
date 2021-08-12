@@ -28,9 +28,9 @@ const listaFuncionarios = [
 const Ul = () => {
     return (
         <ul>            
-            {listaFuncionarios.map(({avatar, cargo, nome}) => {
+            { listaFuncionarios.map(({avatar, cargo, nome}) => {
                 return <Li avatar={avatar} cargo={cargo} nome={nome} />
-            })}
+            }) }
         </ul>
     )
 }
