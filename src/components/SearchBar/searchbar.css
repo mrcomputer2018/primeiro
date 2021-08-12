@@ -1,0 +1,9 @@
+.searchBar {
+    height : 2rem;
+    width: 9rem;
+    margin: 1rem;
+}
+
+.searchBar::placeholder {
+    text-align: center;
+}
