@@ -4,22 +4,22 @@ import "./ulcomponent.css"
 
 const listaFuncionarios = [
     {
-        avatar: "avatar1",
+        avatar: 'avatar1',
         nome: 'João Gomes',
         cargo: 'Estagiário/Faz tudo'
     },
     {
-        avatar: "avatar2",
+        avatar: 'avatar2',
         nome: 'Maria Teresinha',
         cargo: 'Tech Lead'
     },
     {
-        avatar: "avatar3",
+        avatar: 'avatar3',
         nome: 'Teresa Maria',
         cargo: 'Recursos Humanos'
     },
     {
-        avatar: "avatar4",
+        avatar: 'avatar4',
         nome: 'Gomes João',
         cargo: 'Customer Success'
     }

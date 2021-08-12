@@ -1,7 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 
-const Li = (avatar, nome, cargo) => {
+const Li = ({avatar, nome, cargo}) => {
     return (
         <li>
             <img src={avatar} alt="" />
@@ -17,10 +17,10 @@ Li.propTypes = {
     cargo: PropTypes.string.isRequired
 }
 
-/* Li.defaultProps = {
+Li.defaultProps = {
     avatar: "Imagem indefinida",
     nome: "Nome indefinido",
     cargo: "Cargo indefinido"
-} */
+}
 
 export default Li;
