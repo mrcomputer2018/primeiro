@@ -2,6 +2,7 @@ import React from "react"
 import Header from "../../components/Header";
 import SearchBar from "../../components/SearchBar";
 import Ul from "../../components/List/Ul/ulcomponent";
+import Button from "../../components/Button";
 import "./homepage.css"
 
 const Homepage = ({text}) => {
@@ -14,6 +15,7 @@ const Homepage = ({text}) => {
                 <SearchBar/>
             </div>
             <Ul/>
+            <Button/>
         </div>
     )
 }
