@@ -1,0 +1,47 @@
+/** Variaveis de cores */
+:root {
+    --color-white: #f3f3f3;
+    --color-darkblue: #1b1b32;
+    --color-darkblue-alpha: rgba(27, 27, 50, 0.8);
+    --color-blackForm: rgba(10, 10, 35, 0.9);
+    --color-green: #37af65;
+    --color-greenLght: hsl(143, 52%, 60%)
+}
+
+/** GLobal */
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+input, button, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+button {
+    border: none;
+}
+
+body {
+    margin-top: 2rem;
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    color: var(--color-darkblue-alpha);
+}
+
+h1 {
+    font-size: 2.6rem;
+    line-height: 1.4rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    font-size: 1.125rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
