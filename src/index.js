@@ -9,7 +9,7 @@ import ComParametro from "./components/basicos/ComParametro"
 const element = document.getElementById("root")
 
 ReactDOM.render(
-    <div>
+    <div id="app">
         <strong>"Ola, React!!!!"</strong>
         <br/>
         <Primeiro/>
