@@ -1,8 +1,11 @@
 import React from "react"
 
 const Aleatorio = (props) => {
-    const min = props.min
-    const max = props.max
+    /* const min = props.min
+    const max = props.max */
+    //* destruction
+    const { min, max } = props
+    
     const aleatorio = parseInt(Math.random() * (max - min)) + min
 
     return (

@@ -17,7 +17,7 @@ function App(props) {
                 subtitulo="Pedro Silva" 
                 nota={10} />
             <Fragmento />
-            <Aleatorio min={10} max={60}/>
+            <Aleatorio min={1} max={60}/>
         </div>
     )
 }
