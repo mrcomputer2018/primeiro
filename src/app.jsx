@@ -6,6 +6,8 @@ import ComParametro from "./components/basicos/ComParametro"
 import Fragmento from "./components/basicos/Fragmento"
 import Aleatorio from "./components/basicos/Aleatorio"
 import Familia from "./components/basicos/Familia"
+import Familia02 from "./components/basicos/Familia02"
+import Membro from "./components/basicos/Menbro"
 
 function App(props) {
     return (
@@ -34,6 +36,14 @@ function App(props) {
 
                 <Card titulo="#05 - Componentes com Filhos"  color="#00C8F8">
                     <Familia sobrenome="Ferreira"></Familia>
+                </Card>
+
+                <Card titulo="#05.2 - Componentes com Filhos #02"  color="#01C3A1">
+                    <Familia02 sobrenome="Sulva">
+                        <Membro nome="Pedro" />
+                        <Membro nome="Joao" />
+                        <Membro nome="Marcelo" />
+                    </Familia02>
                 </Card>
             </div>
         </div>
