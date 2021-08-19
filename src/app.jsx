@@ -9,6 +9,7 @@ import Familia from "./components/basicos/Familia"
 import Familia02 from "./components/basicos/Familia02"
 import Membro from "./components/basicos/Menbro"
 import ListaAlunos from "./components/repeticao/ListaAlunos"
+import ListaProdutos from "./components/repeticao/LlistaProdutos"
 
 function App(props) {
     return (
@@ -49,6 +50,10 @@ function App(props) {
 
                 <Card titulo="#06 - Rpetição"  color="#FF4C65">
                     <ListaAlunos></ListaAlunos>
+                </Card>
+
+                <Card titulo="#07 - Rpetição Desafio"  color="#FF4CFF">
+                    <ListaProdutos></ListaProdutos>
                 </Card>
             </div>
         </div>
