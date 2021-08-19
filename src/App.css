@@ -1,0 +1,7 @@
+.app .cards {
+    display: flex;
+    /** Para centralizar os cards */
+    justify-content: center;
+    /** Wrap - para quebrar linha */
+    flex-wrap: wrap;
+}
