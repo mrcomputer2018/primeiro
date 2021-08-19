@@ -10,6 +10,7 @@ import Familia02 from "./components/basicos/Familia02"
 import Membro from "./components/basicos/Menbro"
 import ListaAlunos from "./components/repeticao/ListaAlunos"
 import ListaProdutos from "./components/repeticao/LlistaProdutos"
+import ParOuImpar from "./components/condicional/ParOuImpar"
 
 function App(props) {
     return (
@@ -48,12 +49,16 @@ function App(props) {
                     </Familia02>
                 </Card>
 
-                <Card titulo="#06 - Rpetição"  color="#FF4C65">
+                <Card titulo="#06 - Repetição"  color="#FF4C65">
                     <ListaAlunos></ListaAlunos>
                 </Card>
 
-                <Card titulo="#07 - Rpetição Desafio"  color="#FF4CFF">
+                <Card titulo="#07 - Repetição Desafio"  color="#FF4CFF">
                     <ListaProdutos></ListaProdutos>
+                </Card>
+
+                <Card titulo="#08 - Renderização Condicional"  color="#FFD700">
+                    <ParOuImpar numero={20}></ParOuImpar>
                 </Card>
             </div>
         </div>
