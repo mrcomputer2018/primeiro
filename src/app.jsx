@@ -8,6 +8,7 @@ import Aleatorio from "./components/basicos/Aleatorio"
 import Familia from "./components/basicos/Familia"
 import Familia02 from "./components/basicos/Familia02"
 import Membro from "./components/basicos/Menbro"
+import ListaAlunos from "./components/repeticao/ListaAlunos"
 
 function App(props) {
     return (
@@ -44,6 +45,10 @@ function App(props) {
                         <Membro nome="Joao" />
                         <Membro nome="Marcelo" />
                     </Familia02>
+                </Card>
+
+                <Card titulo="#06 - Rpetição"  color="#FF4C65">
+                    <ListaAlunos></ListaAlunos>
                 </Card>
             </div>
         </div>
