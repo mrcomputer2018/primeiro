@@ -3,7 +3,7 @@ import React from "react"
 const DiretaFilho = (props) => {
     return (
         <div>
-            <div>{ props.texto }</div>
+            <div><strong>{ props.texto }</strong></div>
             <div>{ props.numero }</div>
             <div>{ props.bool ? "Verdadeiro" : "Falso"}</div>
         </div>
