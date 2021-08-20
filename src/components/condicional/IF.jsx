@@ -1,7 +1,5 @@
-import React from "react"
-
 const IF = (props) => {
-    if (props.test) {
+    if(props.test) {
         //* retorno o corpo do componente
         return props.children
     }
@@ -9,4 +7,7 @@ const IF = (props) => {
         return false
     }
 }
+
+export const Else = (props) => props.children
+
 export default IF;

@@ -61,8 +61,7 @@ function App(props) {
 
                 <Card titulo="#08 - Renderização Condicional"  color="#008B8B">
                     <ParOuImpar numero={20}></ParOuImpar>
-                    <UsuarioInfo usuario={{ nome: 'Fernando' }}></UsuarioInfo>
-                    <UsuarioInfo usuario={{ email: 'fee@fe.oorg.br' }}></UsuarioInfo>
+                    < UsuarioInfo usuario={{ nome: 'Fernando' }}/>
                 </Card>
             </div>
         </div>
