@@ -1,5 +1,5 @@
 import React from "react"
-import IF, { Else } from "./IF"
+import IF from "./IF"
 
 const UsuarioInfo = (props) => {
     const usuario = props.usuario || {}
@@ -7,11 +7,11 @@ const UsuarioInfo = (props) => {
         <div>
            {/*  /* Usuario setado e susario.nome valido */}
             <IF test={usuario && usuario.nome}>
-                Seja bem vindo!!!<strong>{ usuario.nome }</strong>
+                Seja bem vindo!!!<strong>{ props.usuario.nome }</strong>
             </IF>
 
             <IF test={!usuario || !usuario.nome}>
-                Usuario ou email <strong>invalidos</strong>!!!
+                Usuario ou senha<strong>invalidos!!!</strong>
             </IF>
         </div>
     )
