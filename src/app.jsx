@@ -13,6 +13,7 @@ import ListaAlunos from "./components/repeticao/ListaAlunos"
 import ListaProdutos from "./components/repeticao/LlistaProdutos"
 import ParOuImpar from "./components/condicional/ParOuImpar"
 import UsuarioInfo from "./components/condicional/UsuarioInfo"
+import DiretaPai from "./components/comunicacao/DiretaPai"
 
 function App(props) {
     return (
@@ -62,6 +63,10 @@ function App(props) {
                 <Card titulo="#08 - Renderização Condicional"  color="#008B8B">
                     <ParOuImpar numero={20}></ParOuImpar>
                     < UsuarioInfo usuario={{ nome: 'Fernando' }}/>
+                </Card>
+
+                <Card titulo="#09 - Comunicacao Direta"  color="cd #000080">
+                    <DiretaPai/>
                 </Card>
             </div>
         </div>
