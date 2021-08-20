@@ -1,5 +1,6 @@
 import React from "react"
 import "./App.css"
+
 import Card from "./components/layout/Card"
 import Primeiro from "./components/basicos/Primeiro"
 import ComParametro from "./components/basicos/ComParametro"
@@ -11,6 +12,7 @@ import Membro from "./components/basicos/Menbro"
 import ListaAlunos from "./components/repeticao/ListaAlunos"
 import ListaProdutos from "./components/repeticao/LlistaProdutos"
 import ParOuImpar from "./components/condicional/ParOuImpar"
+import UsuarioInfo from "./components/condicional/UsuarioInfo"
 
 function App(props) {
     return (
@@ -57,8 +59,10 @@ function App(props) {
                     <ListaProdutos></ListaProdutos>
                 </Card>
 
-                <Card titulo="#08 - Renderização Condicional"  color="#FFD700">
+                <Card titulo="#08 - Renderização Condicional"  color="#008B8B">
                     <ParOuImpar numero={20}></ParOuImpar>
+                    <UsuarioInfo usuario={{ nome: 'Fernando' }}></UsuarioInfo>
+                    <UsuarioInfo usuario={{ email: 'fee@fe.oorg.br' }}></UsuarioInfo>
                 </Card>
             </div>
         </div>
