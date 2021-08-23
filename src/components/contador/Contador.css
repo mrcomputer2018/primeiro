@@ -1,0 +1,14 @@
+.contador input{
+    font-size: 1.4rem;
+    width: 50%;
+    margin-left: 0.3rem;
+}
+
+.contador button{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    font-size: 1.4rem;
+    background-color: gray;
+    margin: 1rem;
+}

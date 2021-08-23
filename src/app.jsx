@@ -82,7 +82,7 @@ function App(props) {
                 </Card>
 
                 <Card titulo="#12 - Componentes baseados em classes #01 count"  color="#4daf7c">
-                    <Contador />
+                    <Contador numeroInicial={20}/>
                 </Card>
             </div>
         </div>
