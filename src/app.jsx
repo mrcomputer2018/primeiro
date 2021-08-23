@@ -15,6 +15,7 @@ import ParOuImpar from "./components/condicional/ParOuImpar"
 import UsuarioInfo from "./components/condicional/UsuarioInfo"
 import DiretaPai from "./components/comunicacao/DiretaPai"
 import IndiretaPai from "./components/comunicacao/IndiretaPai"
+import Input from "./components/formulario/Input"
 
 function App(props) {
     return (
@@ -73,6 +74,10 @@ function App(props) {
 
                 <Card titulo="#10 - Comunicacao indireta"  color="#E87B27">
                     <IndiretaPai />
+                </Card>
+
+                <Card titulo="#11 - Componente Controlado"  color="#1e824c">
+                    <Input />
                 </Card>
             </div>
         </div>
