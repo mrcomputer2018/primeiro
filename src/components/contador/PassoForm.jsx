@@ -8,7 +8,7 @@ const PassoForm = (props) => {
                 id="passoInput" 
                 type="number" 
                 value={ props.passo } 
-                /** + ppara converter para inteiro */
+                /** + para converter para inteiro */
                 onChange={ evento =>props.setPasso(+evento.target.value) } 
             />
         </div>

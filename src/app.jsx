@@ -17,6 +17,7 @@ import DiretaPai from "./components/comunicacao/DiretaPai"
 import IndiretaPai from "./components/comunicacao/IndiretaPai"
 import Input from "./components/formulario/Input"
 import Contador from "./components/contador/Contador"
+import Mega from "./components/mega/Mega"
 
 function App(props) {
     return (
@@ -83,6 +84,10 @@ function App(props) {
 
                 <Card titulo="#12 - Componentes baseados em classes #01 count"  color="#4daf7c">
                     <Contador numeroInicial={20}/>
+                </Card>
+
+                <Card titulo="#13 - Desafio Mega Sena"  color="#b9006e">
+                    <Mega />
                 </Card>
             </div>
         </div>
